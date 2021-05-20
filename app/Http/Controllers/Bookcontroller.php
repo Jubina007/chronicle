@@ -17,17 +17,7 @@ class Bookcontroller extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function __construct()
-    {
-        $username= session('user')['username'];
-        //if(!isset)
-        // if($username=="")
-        // {
-        //     return redirect('/login2');
-        // }
-        return redirect('/login2');
-    }
-
+   
    
     public function addtocart(Request $req)
     {
